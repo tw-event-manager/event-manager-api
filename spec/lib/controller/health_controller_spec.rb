@@ -1,6 +1,6 @@
-describe HealthController do
+describe Controller::Main do
   def app
-    HealthController
+    Controller::Main
   end
 
   describe "GET /health" do
