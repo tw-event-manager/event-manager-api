@@ -5,4 +5,4 @@ rvm:
 bundler_args: --without development
 deploy:
   provider: heroku
-  app: tw-event-manager-api
+  app: event-manager-api
