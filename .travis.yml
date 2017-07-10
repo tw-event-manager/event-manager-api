@@ -1,8 +1,10 @@
 language: ruby
 sudo: false
 rvm:
-  - 2.4.0
-bundler_args: --without development
+- 2.4.0
+bundler_args: "--without development"
 deploy:
   provider: heroku
   app: event-manager-api
+  api_key:
+    secure: dPpJ3ynlpnxJdznprEn4ZmpRNGsu65uDHJE+uVILvYizsw/M9y+w1Vq457R+kMvyvz+2SVzVtdDuovj3kfdy91A2leRUWSdJBzpNfrCQl8oD5F15GkP1W6lTAjXACkF54XE7j0GS6VkGR7a/sWAp2eIyMzYcb7iJAvc2P1Hn8Cj/A5isdaiMSyRcRH4GQ4P2bKgg09dU5AWEIaiol7dmCtN7wlDXyw4Ha6BRtRnziE54eID6r0mArAu4h95mIFLP6sUe0Uy/2g9MFpEssTIA5caoGbLIfn3WdK5KJxl8xQG2W7im4wI0qNCFZG6tmD3knw8mJkfya4llnLbUXrNXYjEx/Y1mXy52XGmA46P+Shru36GPiXBFXP7/nuunKnCXLG6TJpIbjxqGcqJKUHGrq96oBBs6cMs1nmCgBp21qmj0KLO3K5VZuVdsKtPsEuRESAzslWsz+4o+kuOSCB6qUz/3wHg4PE4ZYLFONZTnJbuZPQyAZ1boN11Vn7BoKgo78axxkdKr0e+fKsZBpv18V9kqvJqLkiEukftQVbZTdk3dNSa53VgX/tqVpWiluFwBvWxkG+Otgb/WnFL5WOaMCNLP/ct1O/+KJW3f1BZdkgOz0Y5hAhZdb9fsiiiHtWyt+rldGRj02cmYKsALV7hiuNJlDRwyr7YaijHz+Kcc0Yg=
